@@ -1,0 +1,26 @@
+.movie-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 150px 이상 너비로 자동 열 생성 */
+    gap: 20px; /* 각 포스터 간격 */
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.movie-item {
+    text-align: center;
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: filter 0.3s;
+}
+
+.movie-item h2 {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+}
+.movie-item:hover img {
+    filter: brightness(0.5);
+}
