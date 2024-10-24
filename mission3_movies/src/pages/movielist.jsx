@@ -31,7 +31,7 @@ const MovieList = () => {
 
   const handleMovieClick = (movieId) => {
     if (movieId) {
-      navigate(`/movies/${movieId}`);
+      navigate(`/movie/${movieId}`);
     } else {
       console.error("영화 ID가 없습니다.");
     }
