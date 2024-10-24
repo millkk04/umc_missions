@@ -39,7 +39,7 @@ const CategoryContainer = styled.div`
   min-width: 600px;
 `
 
-const CategoryCard = styled(Link)`
+const CategoryCard = styled(({ bgImage, ...rest }) => <Link {...rest} />)`
   display: flex;
   align-items: flex-end;
   width: 280px;
