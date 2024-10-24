@@ -1,0 +1,15 @@
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie-box {
+    width: calc(10% - 10px); /* 한 줄에 10개 표시 */
+    margin-bottom: 20px;
+}
+
+.movie-box img {
+    width: 100%; /* 포스터 이미지를 박스에 맞게 조정 */
+    border-radius: 5px; /* 모서리 둥글게 */
+}

@@ -1,0 +1,26 @@
+.search-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    z-index: 1;
+  }
+  
+  .search-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 1; /* 버튼이 상위 레이어에 있도록 설정 */
+  }
+  
+  .search-button:hover {
+    background-color: darkred;
+  }
+  
