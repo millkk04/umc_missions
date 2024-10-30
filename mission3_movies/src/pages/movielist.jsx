@@ -21,7 +21,7 @@ const MovieList = () => {
         params: { language: "ko", page: "1" },
         headers: {
           accept: "application/json",
-          Authorization: "Bearer 4bf9aec2eb03c8635b0a7148f575389c",
+          Authorization: "Bearer your_api_key",
         },
       };
 
